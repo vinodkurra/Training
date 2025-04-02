@@ -13,5 +13,4 @@ exampleVar();
 // null
 // symbol ->
 // object - > {name : "vinod"}
-
 // typeof

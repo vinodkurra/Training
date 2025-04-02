@@ -8,7 +8,7 @@ console.log(character);
 
 let name2 = "Vinodkumar";
 
-const slice = name2.slice(5, 7);
+const slice = name2.slice(5, 7); //
 const substr = name2.substr(5, 7);
 
 console.log(slice, substr);
@@ -30,5 +30,24 @@ console.log(updated5);
 
 let name6 = "dashboard/page/contact/12345";
 
-const updated6 = name6.split("/");
+const updated6 = name6.split("/"); //
 console.log(updated6[3]);
+
+const text = "I am learning js and learning react";
+
+const value = text.indexOf("js"); //
+
+const lasIndexValue = text.lastIndexOf("js");
+
+const searchValue = text.search("learning");
+
+const match = text.match(/learning/g);
+
+const includeValue = text.includes("fdfdfdf"); //
+
+const course1 = "Javascript";
+const course2 = "react";
+
+const literals = `I am learning ${course1} and ${course2} ${1 + 2}`; /////
+
+console.log(value, lasIndexValue, searchValue, match, includeValue, literals);
