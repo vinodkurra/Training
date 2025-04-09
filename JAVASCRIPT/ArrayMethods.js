@@ -71,3 +71,142 @@ const string = names.join("/");
 names.splice(1, 2);
 
 console.log(names);
+
+const namesToRender = [vinod, am, venu, prasanth];
+
+
+
+
+// const value = names[2];
+
+// const index = names.indexOf("banana", 2);   // array.indexOf(item, start);
+// const index2 = names.lastIndexOf("banana");   // array.lastIndexOf(item, start);
+
+// const userValue = ""
+
+// handleAddNew = () => {
+// debugger
+// if(!userValue) return;
+//     const isExist = names.includes(userValue);
+//     if (isExist) {
+//         alert("already there");
+//     return;
+//     }else{
+//   names.push('green apple')
+//     }
+// console.log("out of my if else")
+// navigate("/user/list")
+// }
+// handleAddNew()
+
+// add new +
+
+// vinod  *
+
+// sam   *
+
+// venu   *
+
+// prasanth   *
+
+// const ages = [27, 12, 27, 13, 18, 23, ]
+
+// const myFindFunction = (value, index)=>{
+//     return value > 23
+
+// }
+
+// // const valueFound = ages.find(myFindFunction);
+// // const valueFound = ages.findIndex(myFindFunction);
+// const valueFound = ages.findLast(myFindFunction);
+// const valueFound = ages.findLastIndex(myFindFunction);
+
+// console.log(valueFound)
+
+// const names = ["carrot",  "banana",  "lemon",  "apple",];
+
+// ARRAYS - SORT []
+
+// apple
+
+// banana
+
+// carrot
+
+// lemon
+
+
+const names = ["carrot", "banana", "dog", "apple"];
+
+// const sorted = names.sort();  // A-Z
+names.sort();
+console.log("sort", names);
+names.reverse();
+
+console.log("reverse", names);
+
+
+const names = ["carrot", "banana", "dog", "apple"];
+
+const sorted = names.toSorted();
+
+console.log(names, sorted);
+
+
+const names = ["carrot", "banana", "dog", "apple"];
+
+const sorted = names.toReversed();
+
+console.log(names, sorted);
+
+
+
+const names = [1, 2, 25, 16, 37, 55, 9, 7, 100]; // strings
+
+const sorted = names.sort();
+
+console.log(sorted);
+
+
+
+
+const names = [1, 2, 25, 16, 37, 55, 9, 7, 100]; // strings
+
+ 
+
+const sorted = names.sort((a, b) => {
+  return b - a;
+});
+
+console.log(sorted);
+
+
+ 
+ 
+const data = [
+  { name: "apple", count: 10 },
+  { name: "banana", count: 65 },
+];
+
+const sorted = data.sort((a, b) => {
+  return b.count - a.count;
+});
+
+console.log(sorted);
+
+
+ 
+
+ARRAY ITERATION METHODS
+
+forEach // 2%
+map // 70%
+filter // 20%
+
+
+
+ 
+
+
+
+
