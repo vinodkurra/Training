@@ -199,6 +199,77 @@ console.log(sorted);
 
 ARRAY ITERATION METHODS
 
+
+
+while : first condition true : code block execute 
+
+// while(...condition){
+//     //code block
+// }
+
+//  let i =0;
+
+// while(i <= 5){
+ 
+//   console.log("count", i);
+// i++;
+// }
+
+
+
+ 
+  
+do while : for first time it will execute code block before checking condition.
+  
+  
+  
+  // do{
+
+//   //code block
+// }while(...condition) 
+
+   let i =6;
+
+ do {
+  console.log("count", i)
+i++
+}while(i <= 4)
+
+  
+for
+  
+  
+  for(let i=0; i < 3; i++  ){
+
+console.log("count", i)
+
+}
+
+
+
+
+// for(initialization; condition; increment/decrement){
+//     code block
+// }
+
+
+1) initialization
+
+2) condition : true   : i = 0
+
+3) code block execute
+
+4) increment  i++ = 1
+
+
+
+2) condition : true   : i = 1
+
+3) code block execute
+
+4) increment i++ = 2
+
+
 forEach // 2%
 map // 70%
 filter // 20%
