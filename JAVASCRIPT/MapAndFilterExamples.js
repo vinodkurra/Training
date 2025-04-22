@@ -87,3 +87,25 @@ export default function App() {
     </div>
   );
 }
+
+
+
+// Coding Challenge 1:
+
+
+// const employees = [
+//     { name: "Eric", role: "Developer", salary: 5000, performance: 10 },
+//     { name: "Stephen", role: "Developer", salary: 4000, performance: 7 },
+//     { name: "Angela", role: "Designer", salary: 3500, performance: 6 },
+//     { name: "Ashim", role: "Developer", salary: 6000, performance: 8 },
+//     { name: "Harsh", role: "Manager", salary: 7000, performance: 9 },
+//     { name: "Maya", role: "Developer", salary: 4500, performance: 5 },
+//     { name: "John", role: "Developer", salary: 5500, performance: 7.5 },
+//   ];
+ 
+// Add a bonus to the salary based on performance. Employees with a score greater than 8 get a 15 % bonus, and employees with a score between 7 and 8 get a 10 % bonus.
+
+// Sort employees by adjusted salary in descending order  
+
+
+ 
