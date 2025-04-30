@@ -111,7 +111,7 @@ export default function App() {
     return () => clearInterval(intervalId);
   }, [counter]);
 
-  return <div className="App">{counter} </div>;
+  return <div className="App">{counter}</div>;
 }
 
 
